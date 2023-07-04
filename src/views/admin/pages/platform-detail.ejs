@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<%- include('../partials/head-style'); %>
+	</head>
+	<body>
+		<%- include('../partials/top-header'); %>
+		<%- include('../partials/sidebar'); %>
+
+		<div class="main-container">
+			<div class="pd-ltr-20 xs-pd-20-10">
+				<div class="min-height-200px">
+					<div class="page-header">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<div class="title">
+									<h4>Platform Detail</h4>
+								</div>
+								<nav aria-label="breadcrumb" role="navigation">
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+										<li class="breadcrumb-item active" aria-current="page">Platform Detail</li>
+									</ol>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<!-- Checkbox select Datatable start -->
+					<div class="card-box mb-30 pd-20">
+						<div class="pb-20">
+							<table class="checkbox-datatable table nowrap">
+								<thead>
+									<tr>
+										<th>
+											<div class="dt-checkbox">
+												<input type="checkbox" name="select_all" value="1" id="example-select-all" />
+												<span class="dt-checkbox-label"></span>
+											</div>
+										</th>
+										<th>User Name</th>
+										<th>Scan Name</th>
+										<th>Scan Time</th>
+										<th>Scan Health</th>
+										<th>Status</th>
+										<th>Status (Everypoint)</th>
+										<th>Initiate Id</th>
+										<th>Job Id</th>
+										<th>Action</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td></td>
+										<td>Tiger Nixon</td>
+										<td><a href="javascript:;">My_Scan_2021</a></td>
+										<td>Today at 11PM</td>
+										<td><span class="badge badge-pill badge-success">Healthy</span></td>
+										<td><span class="badge badge-pill badge-info">Pending</span></td>
+										<td><span class="badge badge-pill badge-info">Pending</span></td>
+										<td>110_1102312</td>
+										<td>/jobs/1728y2828</td>
+										<td>
+											<a href="javascript:;" class="btn btn-outline-primary">Send Email</a>
+											<a href="javascript:;" class="btn btn-outline-primary">Activate Reupload</a>
+											<a href="javascript:;" class="btn btn-outline-primary">Download Assets</a>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>Tiger Nixon</td>
+										<td><a href="javascript:;">My_Scan_2021</a></td>
+										<td>Today at 11PM</td>
+										<td><span class="badge badge-pill badge-success">Healthy</span></td>
+										<td><span class="badge badge-pill badge-success">Completed</span></td>
+										<td><span class="badge badge-pill badge-success">Completed</span></td>
+										<td>110_1102312</td>
+										<td>/jobs/1728y2828</td>
+										<td>
+											<a href="javascript:;" class="btn btn-outline-primary">Send Email</a>
+											<a href="javascript:;" class="btn btn-outline-primary">Activate Reupload</a>
+											<a href="javascript:;" class="btn btn-outline-primary">Download Assets</a>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>Tiger Nixon</td>
+										<td><a href="javascript:;">My_Scan_2021</a></td>
+										<td>Today at 11PM</td>
+										<td><span class="badge badge-pill badge-success">Healthy</span></td>
+										<td><span class="badge badge-pill badge-primary">Processing</span></td>
+										<td><span class="badge badge-pill badge-primary">Processing</span></td>
+										<td>110_1102312</td>
+										<td>/jobs/1728y2828</td>
+										<td>
+											<a href="javascript:;" class="btn btn-outline-primary">Send Email</a>
+											<a href="javascript:;" class="btn btn-outline-primary">Activate Reupload</a>
+											<a href="javascript:;" class="btn btn-outline-primary">Download Assets</a>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>Tiger Nixon</td>
+										<td><a href="javascript:;">My_Scan_2021</a></td>
+										<td>Today at 11PM</td>
+										<td><span class="badge badge-pill badge-danger">Corrupted</span></td>
+										<td><span class="badge badge-pill badge-danger">Failed</span></td>
+										<td><span class="badge badge-pill badge-danger">Failed</span></td>
+										<td>110_1102312</td>
+										<td>/jobs/1728y2828</td>
+										<td>
+											<a href="javascript:;" class="btn btn-outline-primary">Send Email</a>
+											<a href="javascript:;" class="btn btn-outline-primary">Activate Reupload</a>
+											<a href="javascript:;" class="btn btn-outline-primary">Download Assets</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!-- Checkbox select Datatable End -->
+				</div>
+				<div class="footer-wrap pd-20 mb-20 card-box">
+					URC Monitoring
+					<a href="javascript:;" target="_blank">Tycho Technologies Pvt. Ltd.</a>
+				</div>
+			</div>
+		</div>
+		<%- include('../partials/footer'); %>
+	</body>
+</html>

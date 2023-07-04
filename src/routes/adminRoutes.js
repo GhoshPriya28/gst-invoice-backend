@@ -1,0 +1,12 @@
+const express = require('express');
+const {loginView } = require('../controllers/admin/loginController');
+const { dashboardView } = require('../controllers/admin/dashboardController');
+const { platformDetailView } = require('../controllers/admin/platformDetailController');
+const { loggerView, loggerViewDetail } = require('../controllers/admin/loggerController');
+const router = express.Router();
+router.get('/login', loginView);
+router.get('/dashboard', dashboardView);
+router.get('/platform-detail', platformDetailView);
+router.get('/logger', loggerView);
+router.get('/logger-detail', loggerViewDetail);
+module.exports = router;

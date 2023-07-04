@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "gstsahayak",
+      "script": "src/index.js",
+      "watch": ["index"],
+      "ignore_watch" : ["node_modules"],
+      "watch_options": {
+        "followSymlinks": false
+      }
+    }
+  ]
+}
